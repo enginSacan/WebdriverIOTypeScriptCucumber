@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648840665511' stop='1648840666504'>
+    <name>Creating new account for tommy: As a user, I try to create account with credentials</name>
+    <title>Creating new account for tommy: As a user, I try to create account with credentials</title>
+    <test-cases>
+        <test-case start='1648840665511' status='passed' stop='1648840665511'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648840665511' status='passed' stop='1648840666501'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps>
+                <step start='1648840665525' status='passed' stop='1648840666500'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='b5da363c-df45-4c5a-8c05-caf16dd21860-attachment.json' type='application/json' size='77'/>
+                    </attachments>
+                    <steps>
+                        <step start='1648840665553' status='passed' stop='1648840665795'>
+                            <name>navigateTo</name>
+                            <title>navigateTo</title>
+                            <attachments>
+                                <attachment title='Request' source='74aab7ef-a0ed-438b-9168-383668306193-attachment.json' type='application/json' size='36'/>
+                                <attachment title='Response' source='76b22ff3-cdd2-4371-9fab-a8a6bb4f3bc4-attachment.json' type='application/json' size='2'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1648840666501' status='broken' stop='1648840666501'>
+            <name>When I login with test999@test.com and S123456.</name>
+            <title>When I login with test999@test.com and S123456.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I login with test999@test.com and S123456." is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I login with test999@test.com and S123456." is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/user/Documents/WIOTypeScriptCucumber/features/login.feature):1:1
+                	at Scenario(As a user, I try to create account with credentials):14:3
+                	at Step(I login with &lt;username> and &lt;password>):16:7
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648840666502' status='broken' stop='1648840666503'>
+            <name>Then Î should see MIJN ACCOUNT page title</name>
+            <title>Then Î should see MIJN ACCOUNT page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Î should see MIJN ACCOUNT page title" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Î should see MIJN ACCOUNT page title" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/user/Documents/WIOTypeScriptCucumber/features/login.feature):1:1
+                	at Scenario(As a user, I try to create account with credentials):14:3
+                	at Step(Î should see &lt;title> page title):17:7
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648840666503' status='passed' stop='1648840666503'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648835676011' stop='1648835677822'>
+    <name>The Internet Guinea Pig Website: As a user, I should provide necessary information for account</name>
+    <title>The Internet Guinea Pig Website: As a user, I should provide necessary information for account</title>
+    <test-cases>
+        <test-case start='1648835676012' status='passed' stop='1648835676013'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648835676013' status='passed' stop='1648835677814'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps>
+                <step start='1648835676019' status='passed' stop='1648835677812'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='7332cba9-a1c2-45e3-8a7d-82319898d8b6-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1648835677814' status='passed' stop='1648835677819'>
+            <name>When I login with foobar and barfoo</name>
+            <title>When I login with foobar and barfoo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648835677819' status='broken' stop='1648835677820'>
+            <name>Then I should see error messages saying Vul het veld in</name>
+            <title>Then I should see error messages saying Vul het veld in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should see error messages saying Vul het veld in" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see error messages saying Vul het veld in" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/user/Documents/WIOTypeScriptCucumber/features/login.feature):1:1
+                	at Scenario(As a user, I should provide necessary information for account):3:3
+                	at Step(I should see error messages saying &lt;message>):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648835677821' status='passed' stop='1648835677821'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

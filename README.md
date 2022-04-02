@@ -1,0 +1,1 @@
+npx wdio run test/wdio.conf.ts
